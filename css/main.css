@@ -1,0 +1,140 @@
+
+body{
+background-color: #ca3843;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    font-size: 14px;
+}
+
+li {
+    float: left;
+    width: 10%;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li a:hover {
+  color: lightgrey;
+}
+
+li:last-child {
+    border-right: none;
+}
+/*center image and text*/
+
+.center {
+  background-color: BLACK;
+  width: 100%;
+}
+.background{
+  background-color: red;
+}
+img{
+  position: absolute;
+  width: 35%;
+  top: 28%;
+  left: 28%;
+}
+
+/*tiles*/
+h1{
+  font-size: 44px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  line-height: 0%;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 37%;
+}
+h2{
+  font-size: 29px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  line-height: 0%;
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  left: 48%;
+}
+h3 {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  line-height: 0%;
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 48.5%;
+}
+h4{
+  font-size: 19px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 0%;
+}
+h5{
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 0%;
+}
+.tiles{
+  width: 100%;
+  display: block;
+  top: 670px;
+  position: absolute;
+}
+.tile1 {
+  background-color: white;
+  color: black;
+  float: left;
+  width: 25%;
+  text-align: center;
+  height: 180px;
+  margin: 0;
+  border-width: 2px
+}
+
+.tile2 {
+  background-color: black;
+  color: white;
+  float: left;
+  width: 25%;
+  text-align: center;
+  height: 180px;
+}
+.tile3{
+  background-color: white;
+  color: black;
+  float:left;
+  width: 25%;
+  text-align: center;
+  height: 180px;
+}
+.tile4{
+  background-color: white;
+  color: black;
+  float:left;
+  width: 25%;
+  text-align: center;
+  height: 180px;
+}

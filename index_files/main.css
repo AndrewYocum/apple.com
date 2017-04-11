@@ -1,0 +1,60 @@
+
+body{
+background-color: red;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 55px;
+    font-size: 17px;
+}
+
+li {
+    float: left;
+    width: 10%;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li a:hover {
+  color: lightgrey;
+}
+
+li {
+
+}
+li:last-child {
+    border-right: none;
+}
+/*center image and text*/
+
+.center {
+  background-color: BLACK;
+  width: 100%;
+}
+.background{
+  background-color: red;
+}
+img{
+  position: absolute;
+  width: 30%;
+  top: 28%;
+  left: 32%;
+}
